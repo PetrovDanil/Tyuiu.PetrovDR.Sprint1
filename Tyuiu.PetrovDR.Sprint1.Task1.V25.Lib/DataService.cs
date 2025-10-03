@@ -6,7 +6,7 @@ namespace Tyuiu.PetrovDR.Sprint1.Task1.V25.Lib
     {
         public double Calculate(double x, double y)
         {
-            return (x * y) / (1 + x);
+            return Math.Round((x * y) / (1 + x));
         }
     }
 }
